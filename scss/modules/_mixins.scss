@@ -1,0 +1,29 @@
+@mixin topRowHeadings() {
+    text-transform: capitalize;
+    font: {
+        family: "ubuntu", sans-serif;
+        size: 1.2em;
+    }
+}
+
+@mixin topRowText() {
+    font: {
+        size: 1.5em;
+        family: "montserrat", sans-serif;
+        weight: bold;
+    }
+}
+
+@mixin cardTextStyle() {
+    font: {
+        size: .9em;
+        family: "montserrat", sans-serif;
+    }
+}
+
+@mixin dropDwnCardStyle() {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+}

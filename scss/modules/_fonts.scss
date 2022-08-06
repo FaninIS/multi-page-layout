@@ -1,0 +1,18 @@
+// ! Front page
+
+// Font style for top row headings within section "Main"
+
+@font-face {
+    font-family: "ubuntu", sans-serif;
+    src: url("../../fonts/ubuntu/ubuntu.woff2") format("woff2"), url("../../fonts/ubuntu/ubuntu.woff") format("woff"),
+        url("../../fonts/ubuntu/ubuntu.ttf") format("ttf");
+}
+
+// Font style for header's sections, some headings and paragraph's content within section "Main"
+
+@font-face {
+    font-family: "montserrat", sans-serif;
+    src: url("../../fonts/montserrat/montserrat.woff2") format("woff2"),
+        url("../../fonts/montserrat/montserrat.woff") format("woff"),
+        url("../../fonts/montserrat/montserrat.ttf") format("ttf");
+}
